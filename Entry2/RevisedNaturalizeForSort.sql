@@ -2,11 +2,7 @@ SET ANSI_NULLS ON;
 GO
 SET QUOTED_IDENTIFIER ON;
 GO
--- =============================================
--- Author:		Ben Cechner
--- Create date: 
--- Description:	Formats locker codes for ordering
--- =============================================
+
 CREATE FUNCTION RevisedNaturalizeForSort
 (
     @LockerCode NVARCHAR(MAX)
